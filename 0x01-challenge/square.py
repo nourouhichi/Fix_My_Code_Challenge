@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+0x01-challenge#!/usr/bin/python3
 """ square.py
     square class
 """
@@ -10,7 +10,7 @@ class Square():
     width = 0
     height = 0
 
-    def __init__(self, *args, **kwargs):0x01-challenge0x01-challenge
+    def __init__(self, *args, **kwargs):
         """ Constructor """
         for key, value in kwargs.items():
             setattr(self, key, value)
@@ -25,7 +25,7 @@ class Square():
 
     def __str__(self):
         """ String representation of the object """
-        return "{}/{}".format(self.width, self.height0x01-challenge)
+        return "{}/{}".format(self.width, self.height)
 
 
 if __name__ == "__main__":
