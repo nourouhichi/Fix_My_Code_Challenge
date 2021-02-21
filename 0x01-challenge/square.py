@@ -1,4 +1,4 @@
-0x01-challenge#!/usr/bin/python3
+#!/usr/bin/python3
 """ square.py
     square class
 """
