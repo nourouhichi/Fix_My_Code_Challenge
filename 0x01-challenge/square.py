@@ -10,14 +10,14 @@ class Square():
     width = 0
     height = 0
 
-    def __init__(self, *args, **kwargs):
+    def __init__(self, *args, **kwargs):0x01-challenge0x01-challenge
         """ Constructor """
         for key, value in kwargs.items():
             setattr(self, key, value)
 
     def area_of_my_square(self):
         """ Area of the square """
-        return self.width * self.width
+        return self.width * self.height
 
     def permiter_of_my_square(self):
         """ permiter of my square """
@@ -25,7 +25,7 @@ class Square():
 
     def __str__(self):
         """ String representation of the object """
-        return "{}/{}".format(self.width, self.height)
+        return "{}/{}".format(self.width, self.height0x01-challenge)
 
 
 if __name__ == "__main__":
